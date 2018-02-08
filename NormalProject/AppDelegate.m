@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GSTabBarVC.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //1.创建窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = GSGlobalColor;
+    
+    //2.广告页面
+    self.window.rootViewController = [[GSTabBarVC alloc] init];
+    
+    //3.显示窗口个
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
