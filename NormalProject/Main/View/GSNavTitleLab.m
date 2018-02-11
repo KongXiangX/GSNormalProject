@@ -8,12 +8,24 @@
 
 #import "GSNavTitleLab.h"
 #import "NSString+GS.h"   //
+
+#define NavBackItemW  50 //左右 两侧item 的 宽
+
 @implementation GSNavTitleLab
 
 + (instancetype)defaultNavTitleLabWithTitle:(NSString *)title
 {
     GSNavTitleLab *label = [[GSNavTitleLab alloc] init];
+//    label.backgroundColor = [UIColor purpleColor];
     label.text = title;
+    CGFloat labW =  GSScreenW - NavBackItemW*2;
+    CGFloat titleW = [title lf_widthForFont:GSNavTitleFont] + 10;
+    if (labW > titleW) {
+        label.frame = CGRectMake(0, 0, titleW, GSNavMaxY - GSStatusBarH);
+    }else{
+        CGRectMake(0, 0, labW, GSNavMaxY - GSStatusBarH);
+    }
+    
     return label;
 }
 
@@ -35,9 +47,9 @@
 // 基本设置
 - (void)basicSetting
 {
-    CGFloat navBackItemW = 50; //左右 两侧item 的 宽
+   
     
-    self.frame = CGRectMake(0, 0, GSScreenW - navBackItemW*2, GSNavMaxY - GSStatusBarH);
+    self.frame = CGRectMake(0, 0, GSScreenW - NavBackItemW*2, GSNavMaxY - GSStatusBarH);
     self.font = GSNavTitleFont;
     self.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     self.textAlignment = NSTextAlignmentCenter;

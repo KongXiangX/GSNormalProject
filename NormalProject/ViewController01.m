@@ -23,8 +23,7 @@
     [super viewDidLoad];
 //    self.title = @"01";
     
-    GSNavTitleLab * lab = [[GSNavTitleLab alloc] init];
-    lab.text = @"01";
+    GSNavTitleLab * lab = [GSNavTitleLab defaultNavTitleLabWithTitle:@"sdfsdfdadf"];
     self.navigationItem.titleView = lab;
     
     self.view.backgroundColor = [UIColor orangeColor];
