@@ -23,7 +23,7 @@
     if (labW > titleW) {
         label.frame = CGRectMake(0, 0, titleW, GSNavMaxY - GSStatusBarH);
     }else{
-        CGRectMake(0, 0, labW, GSNavMaxY - GSStatusBarH);
+        label.frame = CGRectMake(0, 0, labW, GSNavMaxY - GSStatusBarH);
     }
     
     return label;
@@ -47,8 +47,6 @@
 // 基本设置
 - (void)basicSetting
 {
-   
-    
     self.frame = CGRectMake(0, 0, GSScreenW - NavBackItemW*2, GSNavMaxY - GSStatusBarH);
     self.font = GSNavTitleFont;
     self.autoresizingMask = UIViewAutoresizingFlexibleWidth;
