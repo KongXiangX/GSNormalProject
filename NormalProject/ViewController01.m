@@ -29,6 +29,9 @@
     self.view.backgroundColor = [UIColor orangeColor];
     
     
+
+    
+    
 //    UITextField * tf = [[UITextField alloc] initWithFrame:CGRectMake(20, 200, 200, 50)];
 //    tf.contentMode =
 //    tf.layer.cornerRadius = 10;
@@ -55,7 +58,7 @@
     btn.backgroundColor = [UIColor whiteColor];
     [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
-    
+
     UIButton * btn2 = [[UIButton alloc] initWithFrame:CGRectMake(200, 100, 80, 80) ];
     [btn2 setTitle:@"22" forState:UIControlStateNormal];
     [btn2 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
@@ -68,6 +71,10 @@
 - (void)btnClick
 {
     NSLog(@"sddsfdsf");
+    
+    
+    
+    
 }
 
 - (void)statusBtnClick
@@ -75,6 +82,8 @@
     ViewController * vc = [[ViewController alloc] init];
     vc.view.backgroundColor = [UIColor orangeColor];
     [self.navigationController pushViewController:vc animated:YES];
+    
+    
     
 }
 

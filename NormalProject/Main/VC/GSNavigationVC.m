@@ -22,7 +22,8 @@
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     attrs[NSFontAttributeName] = [UIFont boldSystemFontOfSize:20];
     [navBar setTitleTextAttributes:attrs];
-    
+ 
+   
     // 设置导航条背景图片
     [navBar setBackgroundImage:[UIImage imageNamed:@"navItem_background"] forBarMetrics:UIBarMetricsDefault];
     
@@ -31,7 +32,6 @@
 {
     UINavigationBar *bar = [UINavigationBar appearance];
     [bar setBackgroundImage:[UIImage imageNamed:@"navItem_background"] forBarMetrics:UIBarMetricsDefault];
-    //    bar.backgroundColor = [UIColor blueColor];
     [bar setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"Helvetica-Bold" size:16]}];
 }
 

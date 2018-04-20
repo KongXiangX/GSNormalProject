@@ -7,6 +7,9 @@
 //
 
 #import "GSHelperUtil.h"
+//有关权限导入的文件
+#import <CoreLocation/CoreLocation.h>
+
 
 @implementation GSHelperUtil
 + (NSString *) nullDefultString: (NSString *)fromString null:(NSString *)nullStr{
@@ -244,4 +247,80 @@
     BOOL isMatch = [pred evaluateWithObject:CarNumber];
     return isMatch;
 }
+
+#pragma mark -  1.自己
+
+/**
+ 拨打电话/跳转网址   openURL :10 以后适配
+ @param urlStr 电话/网址
+ */
++ (void)adaptationOpenUrlWithUrlStr:(NSString *)urlStr
+{
+    UIApplication *application = [UIApplication sharedApplication];
+    
+    if (@available (iOS 10.0,*)) {
+        if ([application respondsToSelector:@selector(openURL:options:completionHandler:)]) {
+            [application openURL:[NSURL URLWithString:urlStr] options:@{}
+               completionHandler:^(BOOL success) {
+               }];
+        }
+    }else{
+        [application openURL:[NSURL URLWithString:urlStr]];
+    }
+    
+}
+
+/**
+ 拨打电话/跳转网址
+ 
+ @param urlStr 电话/网址
+ @param options <#options description#>
+ @param completion <#completion description#>
+ */
++ (void)adaptationOpenUrlWithUrlStr:(NSString *)urlStr options:(NSDictionary<NSString *, id> *)options completionHandler:(void (^ __nullable)(BOOL success))completion
+{
+    GSLog(@"需要10 以版本");
+    
+    UIApplication *application = [UIApplication sharedApplication];
+    
+    if (@available (iOS 10.0,*)) {
+        if ([application respondsToSelector:@selector(openURL:options:completionHandler:)]) {
+            [application openURL:[NSURL URLWithString:urlStr] options:options
+               completionHandler:completion];
+        }
+    }
+}
+
+//断网提示
++ (void)NoNetAlert
+{
+    [SVProgressHUD dismiss];
+    [SVProgressHUD showErrorWithStatus:GS_NO_NETWORK];
+    [SVProgressHUD dismissWithDelay:1.5f];
+}
+
+////是否 打开 打开定位权限
+//+ (BOOL)isOpenCoreLocation
+//{
+////    //定位权限状态
+////    CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
+////
+////    if (status == kCLAuthorizationStatusRestricted) {
+////
+////        return NO;
+////
+////    }else if (status == kCLAuthorizationStatusNotDetermined){
+////
+////        //NotDetermined (不确定)
+////        [self.manager requestWhenInUseAuthorization];
+////    }else{
+////        //定位相关设置 NotDetermined (不确定)
+////        //开始定位
+////
+////    }
+//}
+    
+
+
+
 @end

@@ -18,6 +18,9 @@
 		1811C2C12011805D005EDBBD /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811C2BE2011805D005EDBBD /* UIButton+Layout.m */; };
 		1811C2C22011805D005EDBBD /* YLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811C2C02011805D005EDBBD /* YLButton.m */; };
 		1811C2C520118086005EDBBD /* GSNavTitleLab.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811C2C420118086005EDBBD /* GSNavTitleLab.m */; };
+		182017B120808639009B4838 /* GSTestCell01.m in Sources */ = {isa = PBXBuildFile; fileRef = 182017B020808639009B4838 /* GSTestCell01.m */; };
+		182017B420808649009B4838 /* GSTestCell02.m in Sources */ = {isa = PBXBuildFile; fileRef = 182017B320808649009B4838 /* GSTestCell02.m */; };
+		182017B720808655009B4838 /* GSTestCell03.m in Sources */ = {isa = PBXBuildFile; fileRef = 182017B620808655009B4838 /* GSTestCell03.m */; };
 		18243FA81FF3418600231B48 /* GSWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18243FA71FF3418600231B48 /* GSWebVC.m */; };
 		18243FAB1FF3419E00231B48 /* GSNONavWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18243FAA1FF3419E00231B48 /* GSNONavWebVC.m */; };
 		18243FAE1FF341B400231B48 /* GSWKWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18243FAD1FF341B400231B48 /* GSWKWebVC.m */; };
@@ -30,6 +33,11 @@
 		182ADEED202C1E1F00667D7E /* HZYRoundShowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 182ADEEC202C1E1F00667D7E /* HZYRoundShowButton.m */; };
 		182ADEF0202C1EFA00667D7E /* GSBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 182ADEEF202C1EFA00667D7E /* GSBaseVC.m */; };
 		183CB0B61FEB3FEE005099D7 /* NSString+GSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CB0B51FEB3FEE005099D7 /* NSString+GSTextField.m */; };
+		18532A822085C11800F4FD45 /* GSFAQView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18532A812085C11800F4FD45 /* GSFAQView.m */; };
+		18532A852085C12F00F4FD45 /* GSFAQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18532A842085C12F00F4FD45 /* GSFAQModel.m */; };
+		18532A882085C14500F4FD45 /* GSFAQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18532A872085C14500F4FD45 /* GSFAQFrame.m */; };
+		18532A8F2086CF3700F4FD45 /* GSCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18532A8E2086CF3700F4FD45 /* GSCategoryView.m */; };
+		18532A932086F18B00F4FD45 /* GSCustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18532A922086F18B00F4FD45 /* GSCustomTableView.m */; };
 		185882DA1FEA5B8000EF76E5 /* GSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 185882D91FEA5B8000EF76E5 /* GSTextField.m */; };
 		18847EF01FCBA176007A2349 /* ViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 18847EEF1FCBA176007A2349 /* ViewController01.m */; };
 		18847EF31FCBA19A007A2349 /* ViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = 18847EF21FCBA19A007A2349 /* ViewController02.m */; };
@@ -97,6 +105,12 @@
 		1811C2C420118086005EDBBD /* GSNavTitleLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSNavTitleLab.m; sourceTree = "<group>"; };
 		1811C2C6201199B7005EDBBD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		1811C2C820119A4D005EDBBD /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		182017AF20808639009B4838 /* GSTestCell01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSTestCell01.h; sourceTree = "<group>"; };
+		182017B020808639009B4838 /* GSTestCell01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSTestCell01.m; sourceTree = "<group>"; };
+		182017B220808649009B4838 /* GSTestCell02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSTestCell02.h; sourceTree = "<group>"; };
+		182017B320808649009B4838 /* GSTestCell02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSTestCell02.m; sourceTree = "<group>"; };
+		182017B520808655009B4838 /* GSTestCell03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSTestCell03.h; sourceTree = "<group>"; };
+		182017B620808655009B4838 /* GSTestCell03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSTestCell03.m; sourceTree = "<group>"; };
 		18243FA61FF3418600231B48 /* GSWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSWebVC.h; sourceTree = "<group>"; };
 		18243FA71FF3418600231B48 /* GSWebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSWebVC.m; sourceTree = "<group>"; };
 		18243FA91FF3419E00231B48 /* GSNONavWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSNONavWebVC.h; sourceTree = "<group>"; };
@@ -122,6 +136,16 @@
 		182ADEEF202C1EFA00667D7E /* GSBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBaseVC.m; sourceTree = "<group>"; };
 		183CB0B41FEB3FEE005099D7 /* NSString+GSTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+GSTextField.h"; sourceTree = "<group>"; };
 		183CB0B51FEB3FEE005099D7 /* NSString+GSTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+GSTextField.m"; sourceTree = "<group>"; };
+		18532A802085C11800F4FD45 /* GSFAQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSFAQView.h; sourceTree = "<group>"; };
+		18532A812085C11800F4FD45 /* GSFAQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSFAQView.m; sourceTree = "<group>"; };
+		18532A832085C12F00F4FD45 /* GSFAQModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSFAQModel.h; sourceTree = "<group>"; };
+		18532A842085C12F00F4FD45 /* GSFAQModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSFAQModel.m; sourceTree = "<group>"; };
+		18532A862085C14500F4FD45 /* GSFAQFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSFAQFrame.h; sourceTree = "<group>"; };
+		18532A872085C14500F4FD45 /* GSFAQFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSFAQFrame.m; sourceTree = "<group>"; };
+		18532A8D2086CF3700F4FD45 /* GSCategoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSCategoryView.h; sourceTree = "<group>"; };
+		18532A8E2086CF3700F4FD45 /* GSCategoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSCategoryView.m; sourceTree = "<group>"; };
+		18532A912086F18B00F4FD45 /* GSCustomTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSCustomTableView.h; sourceTree = "<group>"; };
+		18532A922086F18B00F4FD45 /* GSCustomTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSCustomTableView.m; sourceTree = "<group>"; };
 		185882D81FEA5B8000EF76E5 /* GSTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSTextField.h; sourceTree = "<group>"; };
 		185882D91FEA5B8000EF76E5 /* GSTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSTextField.m; sourceTree = "<group>"; };
 		18847EEE1FCBA176007A2349 /* ViewController01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController01.h; sourceTree = "<group>"; };
@@ -233,6 +257,10 @@
 				180BEF921FC3AE610014478F /* Assets.xcassets */,
 				180BEF941FC3AE610014478F /* LaunchScreen.storyboard */,
 				180BEF971FC3AE610014478F /* Info.plist */,
+				18532A902086F17A00F4FD45 /* CustomTable */,
+				18532A8C2086CF1400F4FD45 /* CategoryView(多个分类视图) */,
+				18532A7D2085C11800F4FD45 /* FAQView(常见问题) */,
+				182017AE20808616009B4838 /* TestCell */,
 				18847EF71FCBA208007A2349 /* Main */,
 				180BEF981FC3AE610014478F /* main.m */,
 				180BEFBB1FC3AEF30014478F /* PrefixHeader.pch */,
@@ -269,6 +297,19 @@
 				1811C2C02011805D005EDBBD /* YLButton.m */,
 			);
 			path = YLButton;
+			sourceTree = "<group>";
+		};
+		182017AE20808616009B4838 /* TestCell */ = {
+			isa = PBXGroup;
+			children = (
+				182017AF20808639009B4838 /* GSTestCell01.h */,
+				182017B020808639009B4838 /* GSTestCell01.m */,
+				182017B220808649009B4838 /* GSTestCell02.h */,
+				182017B320808649009B4838 /* GSTestCell02.m */,
+				182017B520808655009B4838 /* GSTestCell03.h */,
+				182017B620808655009B4838 /* GSTestCell03.m */,
+			);
+			path = TestCell;
 			sourceTree = "<group>";
 		};
 		18243FA31FF3413900231B48 /* WebVC */ = {
@@ -349,6 +390,53 @@
 				182ADEEC202C1E1F00667D7E /* HZYRoundShowButton.m */,
 			);
 			path = HZYRoundShowButton;
+			sourceTree = "<group>";
+		};
+		18532A7D2085C11800F4FD45 /* FAQView(常见问题) */ = {
+			isa = PBXGroup;
+			children = (
+				18532A7E2085C11800F4FD45 /* Model */,
+				18532A7F2085C11800F4FD45 /* View */,
+			);
+			path = "FAQView(常见问题)";
+			sourceTree = "<group>";
+		};
+		18532A7E2085C11800F4FD45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18532A832085C12F00F4FD45 /* GSFAQModel.h */,
+				18532A842085C12F00F4FD45 /* GSFAQModel.m */,
+				18532A862085C14500F4FD45 /* GSFAQFrame.h */,
+				18532A872085C14500F4FD45 /* GSFAQFrame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18532A7F2085C11800F4FD45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18532A802085C11800F4FD45 /* GSFAQView.h */,
+				18532A812085C11800F4FD45 /* GSFAQView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18532A8C2086CF1400F4FD45 /* CategoryView(多个分类视图) */ = {
+			isa = PBXGroup;
+			children = (
+				18532A8D2086CF3700F4FD45 /* GSCategoryView.h */,
+				18532A8E2086CF3700F4FD45 /* GSCategoryView.m */,
+			);
+			path = "CategoryView(多个分类视图)";
+			sourceTree = "<group>";
+		};
+		18532A902086F17A00F4FD45 /* CustomTable */ = {
+			isa = PBXGroup;
+			children = (
+				18532A912086F18B00F4FD45 /* GSCustomTableView.h */,
+				18532A922086F18B00F4FD45 /* GSCustomTableView.m */,
+			);
+			path = CustomTable;
 			sourceTree = "<group>";
 		};
 		185882D71FEA5B6000EF76E5 /* GSTextField */ = {
@@ -692,6 +780,7 @@
 				182ADED0202C19DC00667D7E /* NSDecimalNumber+Addtion.m in Sources */,
 				18243FAE1FF341B400231B48 /* GSWKWebVC.m in Sources */,
 				1811C2C22011805D005EDBBD /* YLButton.m in Sources */,
+				182017B420808649009B4838 /* GSTestCell02.m in Sources */,
 				18847F1F1FCBB120007A2349 /* LFUIAlertController+Blocks.m in Sources */,
 				18847F191FCBAFFB007A2349 /* GSHelperUtil.m in Sources */,
 				185882DA1FEA5B8000EF76E5 /* GSTextField.m in Sources */,
@@ -701,10 +790,14 @@
 				18243FB11FF341D000231B48 /* GSNONavWKWebVC.m in Sources */,
 				18847EF31FCBA19A007A2349 /* ViewController02.m in Sources */,
 				18847F4A1FCBE5F4007A2349 /* GSNavigationVC.m in Sources */,
+				18532A822085C11800F4FD45 /* GSFAQView.m in Sources */,
+				18532A882085C14500F4FD45 /* GSFAQFrame.m in Sources */,
 				18847F201FCBB120007A2349 /* LFUIAlertView+Blocks.m in Sources */,
 				18847F381FCBC59C007A2349 /* LFNSMutableArray+Add.m in Sources */,
 				18847F441FCBE2FB007A2349 /* GSTabBar.m in Sources */,
+				182017B120808639009B4838 /* GSTestCell01.m in Sources */,
 				18847F351FCBC589007A2349 /* LFNSArray+Add.m in Sources */,
+				18532A932086F18B00F4FD45 /* GSCustomTableView.m in Sources */,
 				1811C2C12011805D005EDBBD /* UIButton+Layout.m in Sources */,
 				183CB0B61FEB3FEE005099D7 /* NSString+GSTextField.m in Sources */,
 				18847F241FCBB325007A2349 /* UIImage+GS.m in Sources */,
@@ -715,6 +808,8 @@
 				182ADEED202C1E1F00667D7E /* HZYRoundShowButton.m in Sources */,
 				18847F021FCBA2F0007A2349 /* UIView+GS.m in Sources */,
 				182577D31FCD431900C7B6D0 /* UITableView+GS.m in Sources */,
+				182017B720808655009B4838 /* GSTestCell03.m in Sources */,
+				18532A8F2086CF3700F4FD45 /* GSCategoryView.m in Sources */,
 				18847F2A1FCBB5FC007A2349 /* NSString+GS.m in Sources */,
 				182ADEF0202C1EFA00667D7E /* GSBaseVC.m in Sources */,
 				18847F131FCBAB44007A2349 /* NSDate+GS.m in Sources */,
@@ -725,6 +820,7 @@
 				18847EF61FCBA1A5007A2349 /* ViewController03.m in Sources */,
 				18847F051FCBA4F7007A2349 /* UIButton+GS.m in Sources */,
 				18243FAB1FF3419E00231B48 /* GSNONavWebVC.m in Sources */,
+				18532A852085C12F00F4FD45 /* GSFAQModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

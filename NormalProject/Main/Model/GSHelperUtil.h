@@ -43,4 +43,30 @@
 #pragma 车牌号验证
 + (BOOL) checkCarNumber:(NSString *) CarNumber;
 
+//自己
+
+/**
+ openURL :10 以后适配
+ 
+ @param urlStr 具体电话/网址 字符串
+ */
++ (void)adaptationOpenUrlWithUrlStr:(NSString *)urlStr;
+
++ (void)adaptationOpenUrlWithUrlStr:(NSString *)urlStr options:(NSDictionary<NSString *, id> *)options completionHandler:(void (^ __nullable)(BOOL success))completion;
+
+
+/**
+ 断网 提示
+ */
++ (void)NoNetAlert;
+
+
+
+
+/**
+ 是否 打开 打开定位权限
+ @return YES/NO
+ */
++ (BOOL)isOpenCoreLocation;
+
 @end
